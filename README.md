@@ -1,3 +1,5 @@
 # CSU Data Science Club Website
 
-readme file
+Currently under construction!
+
+Owners: Dawson Eliasen, Fi Graham, Logan Perkins
