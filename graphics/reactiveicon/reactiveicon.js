@@ -29,7 +29,7 @@ function setup() {
   setStroke();
   line(height/2, 13*height/16, 13*height/16, height/2);
 
-  noStroke();
+  stroke(255);
   // top
   setFill();
   ellipse(height/2, 3*height/16, 3*height/16, 3*height/16);
@@ -57,7 +57,7 @@ function setFill() {
 
 function setStroke() {
   if (int(random(6)) <= 3) {
-    stroke(0);
+    stroke(255);
   } else {
     noStroke();
   }
