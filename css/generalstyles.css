@@ -1,11 +1,22 @@
+
+/* element override */
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #426640;
+}
+
+/* bootstrap override */
+
+.navbar {
+  min-height: 80px;
+}
+
+/* custom styles */
+
 .bg-green {
   background-color: #426640!important;
 }
 
 .bg-darkgreen {
   background-color: #013f1d!important;
-}
-
-.navbar {
-  min-height: 80px;
 }
