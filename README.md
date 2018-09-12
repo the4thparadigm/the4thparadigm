@@ -1,6 +1,6 @@
-# CSU Data Science Club Website
+# The 4th Paradigm Website
 
-Website for the Data Science Club at Colorado State University.
+Website for the The 4th Paradigm (aka Data Science Club) at Colorado State University.
 
 ## How to Contribute
 
