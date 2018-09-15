@@ -3,12 +3,18 @@
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #013f1d;
+  font-family: "Verdana";
+}
+
+body {
+  font-family: "Georgia", "Verdana";
 }
 
 /* bootstrap override */
 
 .navbar {
   min-height: 80px;
+  font-family: "Verdana";
 }
 
 .btn-success {
