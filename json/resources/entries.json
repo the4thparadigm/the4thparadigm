@@ -1,0 +1,50 @@
+[
+  {
+    "name":"Colaboratory",
+    "link":"https://colab.research.google.com",
+    "tags":"",
+    "description":"Live collaborative jupyter notebook by Google. Also see Seedbank."
+  },
+  {
+    "name":"Coördinator",
+    "link":"https://spotify.github.io/coordinator/",
+    "tags":"data-visualization",
+    "description": "Open source project by Spotify to convert svg to x and y points. Could be useful for interesting visualization."
+  },
+  {
+    "name":"Five Thirty Eight Data",
+    "link":"https://github.com/fivethirtyeight/data",
+    "tags":"data-sets",
+    "description": "A collection of data used by fivethirtyeight.com."
+  },
+  {
+    "name":"Free Code Camp",
+    "link":"https://www.freecodecamp.org/",
+    "tags":"html-css-js",
+    "description": "Learn front end and full stack web development."
+  },
+  {
+    "name":"Kaggle",
+    "link":"https://www.kaggle.com/",
+    "tags":"data-science data-sets",
+    "description": "A site that hold data science competitions and has learning materials."
+  },
+  {
+    "name":"ML5",
+    "link":"https://ml5js.org/",
+    "tags":"machine-learning html-css-js",
+    "description": "A javascript library for high level machine learning. Developed by NYU."
+  },
+  {
+    "name":"Scikit Learn",
+    "link":"http://scikit-learn.org",
+    "tags":"machine-learning python",
+    "description": "A python library for high level machine learning."
+  },
+  {
+    "name":"Seedbank",
+    "link":"https://tools.google.com/seedbank/",
+    "tags":"machine-learning",
+    "description": "A collection of interactive machine learning examples."
+  }
+]
