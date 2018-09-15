@@ -13,12 +13,15 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/generalstyles.css">
-    <link rel="stylesheet" href="./css/resourcestyles.css">
+    <link rel="stylesheet" href="./css/resourcesstyles.css">
 
     <!-- Meta Data -->
     <meta name="author" content="Dawson Eliasen, Logan Perkins, Fi Graham">
     <meta name="description" content="A website for The 4th Paradigm (aka Data Science Club) at Colorado State University.">
     <meta name="keywords" content="fourth, 4th, paradigm, data science, club, colorado state university, csu">
+
+    <!-- JS -->
+    <script src="./js/resources.js"></script>
 
   </head>
   <body>
@@ -52,7 +55,113 @@
     <!-- Main -->
     <section>
       <div class="container">
-        <div style="min-height: 600px;">
+        <div style="min-height: 600px; margin-top: 10px;">
+          <!-- Buttons -->
+          <div class="row mb-2">
+            <div class="col-xs-12 m-2">
+              <div style="display: inline-block;" class="btn-group" role="group">
+                <button class="btn btn-default btn-success" id="btn-everything">Everything</button>
+              </div>
+            </div>
+            <div class="col-xs-12 m-2">
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-success" id="btn-data-science">Data Science</button>
+                <button class="btn btn-outline-success" id="btn-data-sets">Data Sets</button>
+                <button class="btn btn-outline-success" id="btn-machine-learning">Machine Learning</button>
+                <button class="btn btn-outline-success" id="btn-data-visualization">Data Visualization</button>
+              </div>
+            </div>
+            <div class="col-xs-12 m-2">
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-success" id="btn-python">Python</button>
+                <button class="btn btn-outline-success" id="btn-sql">SQL</button>
+                <button class="btn btn-outline-success" id="btn-java">Java</button>
+                <button class="btn btn-outline-success" id="btn-html-css-js">HTML/CSS/JS</button>
+              </div>
+            </div>
+          </div>
+          <!-- Items -->
+          <div class="row mt-4">
+
+              <div class="resources-item card col-md-3 col-sm-6 data-science data-sets">
+                <div class="card-body">
+                  <a href="https://www.kaggle.com/"><h5>
+                    Kaggle
+                  </h5></a>
+                  <p class="resources-text">
+                    A site that hold data science competitions and has learning materals.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resources-item card col-md-3 col-sm-6 data-sets">
+                <div class="card-body">
+                  <a href="https://github.com/fivethirtyeight/data"><h5>
+                    Five Thirty Eight Data
+                  </h5></a>
+                  <p class="resources-text">
+                    A collection of data used by <a href="fivethirtyeight.com">fivethirtyeight.com</a>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resources-item card col-md-3 col-sm-6 machine-learning">
+                <div class="card-body">
+                  <a href="https://tools.google.com/seedbank/"><h5>
+                    Seedbank
+                  </h5></a>
+                  <p class="resources-text">
+                    A collection of interactive machine learning examples.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resources-item card col-md-3 col-sm-6 machine-learning python">
+                <div class="card-body">
+                  <a href="http://scikit-learn.org"><h5>
+                    Scikit Learn
+                  </h5></a>
+                  <p class="resources-text">
+                    A python library for high level machine learning.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resources-item card col-md-3 col-sm-6 machine-learning html-css-js">
+                <div class="card-body">
+                  <a href="https://ml5js.org/"><h5>
+                    ML5 js
+                  </h5></a>
+                  <p class="resources-text">
+                    A javascript library for high level machine learning. Developed by NYU.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resources-item card col-md-3 col-sm-6 html-css-js">
+                <div class="card-body">
+                  <a href="https://www.freecodecamp.org/"><h5>
+                    Free Code Camp
+                  </h5></a>
+                  <p class="resources-text">
+                    Learn front end and full stack web development.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resources-item card col-md-3 col-sm-6 data-visualization">
+                <div class="card-body">
+                  <a href="https://spotify.github.io/coordinator/"><h5>
+                    Coördinator
+                  </h5></a>
+                  <p class="resources-text">
+                    Open source project by Spotify to convert svg to x and y points.
+                    Could be useful for interesting visualization.
+                  </p>
+                </div>
+              </div>
+
+          </div>
         </div>
       </div>
     </section>

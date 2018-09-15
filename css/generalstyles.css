@@ -11,6 +11,26 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   min-height: 80px;
 }
 
+.btn-success {
+  background-color: #013f1d;
+  border-color: #013f1d;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active    {
+  background-color: #69b541;
+  border-color: #69b541;
+}
+
+.btn-outline-success {
+  border-color: #013f1d;
+  color: #013f1d;
+}
+
+.btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:active    {
+  background-color: #69b541;
+  border-color: #69b541;
+}
+
 /* custom styles */
 
 .bg-green {
