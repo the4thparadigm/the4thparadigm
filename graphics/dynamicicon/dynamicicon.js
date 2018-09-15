@@ -1,58 +1,58 @@
 var canvas;
 
-var size;
+var smallerSize;
 
 function setup() {
   canvas = createCanvas(window.innerWidth, window.innerHeight);
 
   if (width < height) {
-    size = width;
+    smallerSize = width;
   } else {
-    size = height;
+    smallerSize = height;
   }
 
-  strokeWeight(size/40);
+  strokeWeight(smallerSize/40);
   // top <-> middle left
   setStroke();
-  line(size/2, 3*size/16, 3*size/16, size/2);
+  line(smallerSize/2, 3*smallerSize/16, 3*smallerSize/16, smallerSize/2);
   // top <-> middle middle
   setStroke();
-  line(size/2, 3*size/16, size/2, size/2);
+  line(smallerSize/2, 3*smallerSize/16, smallerSize/2, smallerSize/2);
   // top <-> middle right
   setStroke();
-  line(size/2, 3*size/16, 13*size/16, size/2);
+  line(smallerSize/2, 3*smallerSize/16, 13*smallerSize/16, smallerSize/2);
   // middle left <-> middle middle
   setStroke();
-  line(3*size/16, size/2, size/2, size/2);
+  line(3*smallerSize/16, smallerSize/2, smallerSize/2, smallerSize/2);
   // middle middle <-> middle right
   setStroke();
-  line(size/2, size/2, 13*size/16, size/2);
+  line(smallerSize/2, smallerSize/2, 13*smallerSize/16, smallerSize/2);
   // bottom <-> middle left
   setStroke();
-  line(size/2, 13*size/16, 3*size/16, size/2);
+  line(smallerSize/2, 13*smallerSize/16, 3*smallerSize/16, smallerSize/2);
   // bottom <-> middle middle
   setStroke();
-  line(size/2, 13*size/16, size/2, size/2);
+  line(smallerSize/2, 13*smallerSize/16, smallerSize/2, smallerSize/2);
   // bottom <-> middle right
   setStroke();
-  line(size/2, 13*size/16, 13*size/16, size/2);
+  line(smallerSize/2, 13*smallerSize/16, 13*smallerSize/16, smallerSize/2);
 
   stroke(255);
   // top
   setFill();
-  ellipse(size/2, 3*size/16, 3*size/16, 3*size/16);
+  ellipse(smallerSize/2, 3*smallerSize/16, 3*smallerSize/16, 3*smallerSize/16);
   // middle left
   setFill();
-  ellipse(3*size/16, size/2, 3*size/16, 3*size/16);
+  ellipse(3*smallerSize/16, smallerSize/2, 3*smallerSize/16, 3*smallerSize/16);
   // middle middle
   setFill();
-  ellipse(size/2, size/2, 3*size/16, 3*size/16);
+  ellipse(smallerSize/2, smallerSize/2, 3*smallerSize/16, 3*smallerSize/16);
   // middle right
   setFill();
-  ellipse(13*size/16, size/2, 3*size/16, 3*size/16);
+  ellipse(13*smallerSize/16, smallerSize/2, 3*smallerSize/16, 3*smallerSize/16);
   // bottom
   setFill();
-  ellipse(size/2, 13*size/16, 3*size/16, 3*size/16);
+  ellipse(smallerSize/2, 13*smallerSize/16, 3*smallerSize/16, 3*smallerSize/16);
 }
 
 function setFill() {
