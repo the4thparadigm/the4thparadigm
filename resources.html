@@ -10,6 +10,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/1.2.0/json2html.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/1.2.0/json2html.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.json2html/1.2.0/jquery.json2html.min.js"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/generalstyles.css">
@@ -81,85 +84,7 @@
             </div>
           </div>
           <!-- Items -->
-          <div class="row mt-4">
-
-              <div class="resources-item card col-md-3 col-sm-6 data-science data-sets">
-                <div class="card-body">
-                  <a href="https://www.kaggle.com/"><h5>
-                    Kaggle
-                  </h5></a>
-                  <p class="resources-text">
-                    A site that hold data science competitions and has learning materals.
-                  </p>
-                </div>
-              </div>
-
-              <div class="resources-item card col-md-3 col-sm-6 data-sets">
-                <div class="card-body">
-                  <a href="https://github.com/fivethirtyeight/data"><h5>
-                    Five Thirty Eight Data
-                  </h5></a>
-                  <p class="resources-text">
-                    A collection of data used by <a href="fivethirtyeight.com">fivethirtyeight.com</a>.
-                  </p>
-                </div>
-              </div>
-
-              <div class="resources-item card col-md-3 col-sm-6 machine-learning">
-                <div class="card-body">
-                  <a href="https://tools.google.com/seedbank/"><h5>
-                    Seedbank
-                  </h5></a>
-                  <p class="resources-text">
-                    A collection of interactive machine learning examples.
-                  </p>
-                </div>
-              </div>
-
-              <div class="resources-item card col-md-3 col-sm-6 machine-learning python">
-                <div class="card-body">
-                  <a href="http://scikit-learn.org"><h5>
-                    Scikit Learn
-                  </h5></a>
-                  <p class="resources-text">
-                    A python library for high level machine learning.
-                  </p>
-                </div>
-              </div>
-
-              <div class="resources-item card col-md-3 col-sm-6 machine-learning html-css-js">
-                <div class="card-body">
-                  <a href="https://ml5js.org/"><h5>
-                    ML5 js
-                  </h5></a>
-                  <p class="resources-text">
-                    A javascript library for high level machine learning. Developed by NYU.
-                  </p>
-                </div>
-              </div>
-
-              <div class="resources-item card col-md-3 col-sm-6 html-css-js">
-                <div class="card-body">
-                  <a href="https://www.freecodecamp.org/"><h5>
-                    Free Code Camp
-                  </h5></a>
-                  <p class="resources-text">
-                    Learn front end and full stack web development.
-                  </p>
-                </div>
-              </div>
-
-              <div class="resources-item card col-md-3 col-sm-6 data-visualization">
-                <div class="card-body">
-                  <a href="https://spotify.github.io/coordinator/"><h5>
-                    Coördinator
-                  </h5></a>
-                  <p class="resources-text">
-                    Open source project by Spotify to convert svg to x and y points.
-                    Could be useful for interesting visualization.
-                  </p>
-                </div>
-              </div>
+          <div class="row mt-4" id="resources-grid">
 
           </div>
         </div>

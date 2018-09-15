@@ -1,4 +1,23 @@
 
+// json2HTML
+
+var template;
+var data;
+
+$( document ).ready(function() {
+  $.getJSON("./json/resources/template.json", function(json) {
+    template = json;
+    loadEnteries();
+  });
+});
+
+function loadEnteries() {
+  $.getJSON("./json/resources/entries.json", function(json) {
+    data = json;
+    $('#resources-grid').json2html(data, template);
+  });
+}
+
 // jquery button functions
 
 $(document).ready(function() {
