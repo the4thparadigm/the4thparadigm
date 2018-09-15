@@ -1,0 +1,8 @@
+{"<>":"div","class":"resources-item card col-md-3 col-sm-6 ${tags}","html":[
+    {"<>":"div","class":"card-body","html":[
+        {"<>":"a","href":"${link}","html":[
+            {"<>":"h5","html":"\n      ${name}\n    "}
+          ]},
+        {"<>":"p","class":"resources-text","html":"\n      ${description}\n    "}
+      ]}
+  ]}
