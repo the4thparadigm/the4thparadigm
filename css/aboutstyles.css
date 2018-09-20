@@ -1,0 +1,13 @@
+.member-img {
+  border-radius: .25rem;
+  width: 100%;
+}
+
+.member-soical {
+  margin-bottom: 15px;
+}
+
+.member-soical-img {
+  width: 30px;
+  height: 30px;
+}
