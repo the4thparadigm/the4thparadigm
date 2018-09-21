@@ -62,13 +62,6 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $("#btn-sql").click(function(){
-    hideAll();
-    show("sql");
-  });
-});
-
-$(document).ready(function() {
   $("#btn-java").click(function(){
     hideAll();
     show("java");
@@ -79,6 +72,29 @@ $(document).ready(function() {
   $("#btn-html-css-js").click(function(){
     hideAll();
     show("html-css-js");
+  });
+});
+
+$(document).ready(function() {
+  $("#btn-database").click(function(){
+    hideAll();
+    show("sql");
+    show("nosql");
+  });
+});
+
+$(document).ready(function() {
+  $("#btn-sql").click(function(){
+    hideAll();
+    show("sql");
+  });
+});
+
+
+$(document).ready(function() {
+  $("#btn-nosql").click(function(){
+    hideAll();
+    show("nosql");
   });
 });
 

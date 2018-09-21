@@ -30,6 +30,12 @@
     "description": "A site that hold data science competitions and has learning materials."
   },
   {
+    "name":"mLab",
+    "link":"https://mlab.com/",
+    "tags":"nosql",
+    "description":"Online hosting for MongoDB, free up to 0.5 GB"
+  },
+  {
     "name":"ML5",
     "link":"https://ml5js.org/",
     "tags":"machine-learning html-css-js",
