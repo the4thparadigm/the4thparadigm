@@ -10,6 +10,12 @@ body {
   font-family: "Georgia", "Verdana";
 }
 
+p {
+    width: 50%;
+    left: 25%;
+    right: 25%;
+}
+
 /* bootstrap override */
 
 .navbar {
