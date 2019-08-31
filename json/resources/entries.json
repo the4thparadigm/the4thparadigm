@@ -27,7 +27,7 @@
     "name":"Kaggle",
     "link":"https://www.kaggle.com/",
     "tags":"data-science data-sets",
-    "description": "A site that hold data science competitions and has learning materials."
+    "description": "A site that holds data science competitions and has learning materials."
   },
   {
     "name":"mLab",
@@ -52,5 +52,41 @@
     "link":"https://tools.google.com/seedbank/",
     "tags":"machine-learning",
     "description": "A collection of interactive machine learning examples."
+  },
+  {
+    "name":"NumPy",
+    "link":"http://www.numpy.org",
+    "tags":"python",
+    "description": "A linear algebra library + support for Python Arrays."
+  },
+  {
+    "name":"Pandas",
+    "link":"https://pandas.pydata.org",
+    "tags":"python data-visualization",
+    "description": "Data Analysis Library built on top of NumPy, added support for DataFrames."
+  },
+  {
+    "name":"MatPlotLib",
+    "link":"https://matplotlib.org",
+    "tags":"python data-visualization",
+    "description": "Math Data Visualization tool, allows for object orientated creation of graphs."
+  },
+  {
+    "name":"Seaborn",
+    "link":"https://seaborn.pydata.org",
+    "tags":"python data-visualization",
+    "description": "Data Visualization took built on top of MatPlotLib, allows for graphs on top of Pandas DataFrames."
+  },
+  {
+    "name":"Plotly",
+    "link":"https://plot.ly",
+    "tags":"python data-visualization",
+    "description": "Interactive Data Visualization tool (CuffLinks needs to be installed for Plotly to work with Pandas)."
+  },
+  {
+    "name":"TensorFlow",
+    "link":"https://www.tensorflow.org",
+    "tags":"python machine-learning",
+    "description": "Machine Learning framework built for Python."
   }
 ]
